@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="popup.js"></script>
   <style>
     body {
-      width: 200px;
+      width: 260px;
       padding: 10px;
     }
   </style>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <div>
-    <textarea id="textToTranslate" placeholder="Highlighted text will appear here"></textarea>
+  <div class="container">
+    <div class="inline-div">
+      <div class="language-name">Source Language</div>
+      <select id="sl"></select>
+    </div>
+    <div class="inline-div">
+      <div class="language-name">Translate Language</div>
+      <select id="tl"></select>
+    </div>
   </div>
-  <div>
-    <button id="translateButton">Translate</button>
-  </div>
-  <div>
-    <p id="translatedText"></p>
-  </div>
+
+  <script src="popup.js"></script>
 </body>
 </html>

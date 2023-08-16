@@ -1,0 +1,19 @@
+.inline-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.language-name {
+    font-size: 13px;
+}
+
+select {
+    width: 130px;
+    height: 35px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
